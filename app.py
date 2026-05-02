@@ -9,7 +9,7 @@ from langchain_groq import ChatGroq
 import plotly.express as px
 import os
 
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = st.secrets["GROQ_API_KEY"]
 
 st.title("📊 AI SQL Data Analyst")
 
